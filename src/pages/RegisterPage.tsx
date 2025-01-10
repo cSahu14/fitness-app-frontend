@@ -1,11 +1,15 @@
-import React from 'react'
-import { Button } from '../components/ui/button'
+
+import { RegisterForm } from '../components/register-form'
 
 type Props = {}
 
 const RegisterPage = (props: Props) => {
   return (
-    <div><Button>Click me</Button></div>
+    <main className='min-h-svh w-full flex justify-center items-center p-6 md:p-10'>
+        <div className='w-full max-w-sm'>
+            <RegisterForm />
+        </div>
+    </main>
   )
 }
 
